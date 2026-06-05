@@ -1,6 +1,6 @@
-# 🛒 Customer Retail Dataset — ML Model Comparison
+# Customer Retail Dataset — ML Model Comparison
 
-> **DevTown 5-Day Machine Learning Mastery Bootcamp Project**  
+> **Machine Learning Project**  
 > Comparing Logistic Regression, Decision Tree & KNN on real-world retail data
 
 ---
@@ -11,7 +11,7 @@ This project builds and compares three supervised Machine Learning classificatio
 
 ---
 
-## 🤖 Models Used
+## Models Used
 
 | Model | Description |
 |---|---|
@@ -21,18 +21,18 @@ This project builds and compares three supervised Machine Learning classificatio
 
 ---
 
-## 📊 Dataset Features
+## Dataset Features
 
 | Feature | Type | Description |
 |---|---|---|
 | Quantity | Integer | Units purchased per transaction |
-| UnitPrice | Float | Price per unit (GBP) |
+| Price | Float | Price per unit (GBP) |
 | Country | Categorical | Customer's country |
 | HighValue *(engineered)* | Binary (0/1) | 1 if TotalAmount > median |
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 📁 ML_Customer_Retail_Project/
@@ -45,7 +45,7 @@ This project builds and compares three supervised Machine Learning classificatio
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Option 1 — Google Colab (Recommended)
 1. Go to [colab.research.google.com](https://colab.research.google.com)
@@ -54,16 +54,16 @@ This project builds and compares three supervised Machine Learning classificatio
 4. Click **Runtime → Run All**
 
 ### Option 2 — Local
-```bash
-git clone https://github.com/YOUR_USERNAME/ML_Customer_Retail_Project
-cd ML_Customer_Retail_Project
-pip install pandas scikit-learn matplotlib seaborn openpyxl
-jupyter notebook ML_Customer_Retail_Project.ipynb
-```
+1. Clone the repo
+2. Open the .ipynb file in VS Code
+3. Install Jupyter extension in VS Code
+4. Download the dataset from Kaggle:
+   https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci
+5. Place online_retail.xlsx in the same folder
+6. Update the file path in Step 2 cell
+7. Run All cells
 
----
-
-## 📈 Workflow
+## Workflow
 
 1. Load dataset (UCI Online Retail)
 2. Handle missing values & remove invalid rows
@@ -77,13 +77,6 @@ jupyter notebook ML_Customer_Retail_Project.ipynb
 
 ---
 
-## 🎓 Built During
-
-**DevTown Machine Learning Mastery Bootcamp**  
-📅 May 23–27, 2026 | 5 Days | 100% Online | Free
-
----
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 `Python` `Pandas` `Scikit-learn` `Matplotlib` `Seaborn` `Jupyter Notebook`
