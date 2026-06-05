@@ -53,7 +53,7 @@ This project builds and compares three supervised Machine Learning classificatio
 3. Paste your GitHub repo URL and open the `.ipynb` file
 4. Click **Runtime → Run All**
 
-### Option 2 — Local
+### Option 2 — Local(vs code)
 1. Clone the repo
 2. Open the .ipynb file in VS Code
 3. Install Jupyter extension in VS Code
